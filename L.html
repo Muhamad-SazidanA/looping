@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //looping for
+        for (let z = 0; z <= 15; z++ ) {
+            console.log('data z ke', z)
+        }
+
+        //looping while
+        let x = 1
+        while(x <= 10){
+            console.log('data x ke-', x)
+            x++
+        }
+
+        //looping do while
+        let y = 1
+        do{
+            console.log('Data y ke',y)
+            y++
+        }while (y <= 10)
+        
+
+        //Star ganjil-genap 1-10
+        //for
+        for (let a = 1;a <= 10;a++)
+        if (a % 2 == 1){
+            console.log('data ganjil a ke', a)
+        } else{
+            console.log('data genap a ke', a)
+        }
+        
+        //while
+        let b = 1
+        while (b <= 10) {
+            if (b % 2 == 1){
+            console.log('data ganjil b ke', b)} 
+            else{
+            console.log('data genap b ke', b)
+        }b++;
+        }
+        
+        //Do While
+        let P = 1
+        do{
+            if (P % 2 == 1){
+            console.log('data ganjil P ke', P)} 
+            else{
+            console.log('data genap P ke', P)}
+            P++
+        }while (P <= 10)
+        //End ganjil-genap 1-10
+
+        //Star Faktorial
+        //For
+        let faktorial = 1
+        let angka = 5
+        for(let n = 1; n <= angka; n++){
+        faktorial *= n;
+        }
+    //     console.log ('angka'+'faktorial'+'adalah',faktorial)
+        document.write (`Faktorial dari ${angka} adalah ${faktorial}`)
+
+        //while
+        let fakt = 1
+        let an = 5
+        let m = 1
+        while (m <= an){
+            fakt *= m
+            console.log (`Faktorial dari ${an} adalah ${fakt}`)
+            m++
+        }
+
+        //Do While
+        let faktor = 1
+        let angk = 5
+        let s = 1
+        do{
+            faktor *= s
+            console.log (`Faktorial dari ${angk} adalah ${faktor}`)
+            s++
+        }while (s <= angk)
+        //End Faktorial
+
+        //Tahun Kabisat 
+
+        for (let awal = 1600; awal <= 2024; awal++ )
+        if (awal % 400 == 0 ){
+            console.log(`${awal} Tahun Kabisat`)
+        } else if (awal % 100 == 0 ) {
+            console.log(`${awal} Bukan Tahun Kabisat`)
+        } else if (awal % 4 == 0 ) {
+            console.log(`${awal} Tahun Kabisat`)
+        }
+    </script>
+</body>
+</htm
